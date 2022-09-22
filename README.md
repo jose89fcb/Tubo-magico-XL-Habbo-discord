@@ -1,6 +1,6 @@
 
 <br>
-Deben de instalar el paquete pip install Pillow==8.4.0
+Deben de instalar el paquete <b>pip install Pillow==8.4.0</b>
 <br>
 Necesitas instalar python 3.7: https://www.python.org/downloads/release/python-370/
 <br>
