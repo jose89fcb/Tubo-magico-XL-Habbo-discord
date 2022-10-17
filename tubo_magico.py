@@ -25,7 +25,7 @@ async def tubo(ctx,   keko, hotel):
     time.sleep(3) #Añadimos un tiempo para que sea borrado
    
     
-    response = requests.get(f"https://www.habbo.{hotel}/api/public/users?name={keko}")
+    response = requests.get(f"https://www.habbo.{hotel}/api/public/users?name={keko}") #Api habbo hotel
  
    
     try:
@@ -84,15 +84,15 @@ async def tubo(ctx,   keko, hotel):
 
     ###
      cristal_tubo = Image.open(r"imagenes/cristal_tubo.png").convert("RGBA") #imagen
-     img1 = cristal_tubo.resize((98,172), Image.ANTIALIAS)#tamaño de la saco
+     img1 = cristal_tubo.resize((98,172), Image.ANTIALIAS)#tamaño del cristal tubo
   
     ###
      tubo = Image.open(r"imagenes/tubo.png").convert("RGBA") #imagen
-     img1 = tubo.resize((98,172), Image.ANTIALIAS)#tamaño de la saco
+     img1 = tubo.resize((98,172), Image.ANTIALIAS)#tamaño del tubo
     ###
     ###
      arriba_tubo = Image.open(r"imagenes/arriba_tubo.png").convert("RGBA") #imagen
-     img1 = arriba_tubo.resize((98,172), Image.ANTIALIAS)#tamaño de la saco
+     img1 = arriba_tubo.resize((98,172), Image.ANTIALIAS)#tamaño del tubo parte de arriba
     ###
 
 
@@ -181,4 +181,4 @@ async def tubo(ctx,   keko, hotel):
 async def on_ready():
     print("BOT listo!")
     
-bot.run(config["tokendiscord"])   
+bot.run(config["tokendiscord"]) #Token bot discord
