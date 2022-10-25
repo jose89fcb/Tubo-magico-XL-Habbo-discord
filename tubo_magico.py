@@ -37,7 +37,7 @@ async def tubo(ctx,   keko, hotel):
    
 
    
-    ##jose89fcb
+    
 
     
     
