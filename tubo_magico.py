@@ -37,7 +37,7 @@ async def tubo(ctx,   keko, hotel):
    
 
    
-    
+    ##Hola que tal
 
     
     
@@ -79,7 +79,7 @@ async def tubo(ctx,   keko, hotel):
 
 
      tubo_maquina = Image.open(r"imagenes/cristal_tubo_maquina.png").convert("RGBA") #imagen
-     img1 = tubo_maquina.resize((98,172), Image.ANTIALIAS)#tamaño de la saco
+     img1 = tubo_maquina.resize((98,172), Image.ANTIALIAS)#tamaño del maquina_tubo
 
 
     ###
